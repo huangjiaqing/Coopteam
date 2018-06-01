@@ -1,0 +1,22 @@
+.add {
+  width: 14rem;
+
+  & > li {
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #383838;
+    border-bottom: 1px solid #eee;
+
+    &:hover {
+      background-color: #f5f5f5;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    & > span:first-child {
+      margin-right: 1rem;
+    }
+  }
+}

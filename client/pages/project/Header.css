@@ -1,0 +1,35 @@
+.header {
+  width: inherit;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d9d9;
+  background-color: #f5f5f5;
+}
+
+.nav {
+  padding-left: 1.2rem;
+}
+
+.action {
+  font-size: 14px;
+  line-height: 1.5;
+
+  & > li {
+    display: flex;
+    align-items: center;
+    padding: 0 1.2rem;
+    color: gray;
+
+    & > span:last-child {
+      margin-left: 0.5rem;
+      font-size: 14px;
+    }
+  }
+}
+
+.actionIcon {
+  position: relative;
+  top: 1px;
+}

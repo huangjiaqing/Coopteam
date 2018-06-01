@@ -1,0 +1,18 @@
+# dependencies
+node_modules
+
+.cache
+
+# logs
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Nuxt generate
+dist
+
+# System
+.DS_Store
+
+# Build
+build

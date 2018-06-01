@@ -1,0 +1,63 @@
+:root {
+  --title-color: #fafafa;
+}
+
+.projItem {
+  width: 272px;
+  height: 136px;
+  background-color: #eee;
+  border-radius: 0.6rem;
+  display: inline-block;
+  transition: box-shadow 0.218s ease;
+  transition: transform .218s ease;
+  margin: 0 1.7rem 1.7rem 0;
+  line-height: 0;
+  background-image: url(https://i.loli.net/2018/03/25/5ab6f3f69450a.jpg);
+  background-size: 100% 100%;
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  &:hover {
+    box-shadow: 0 7px 21px rgba(56,56,56,.15);
+    transform: translateY(-5px);
+
+    & .projIcon {
+      visibility: visible;
+    }
+  }
+}
+
+
+.projInfo {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1.4rem;
+
+  & > h2 {
+    color: var(--title-color);
+    margin: 0;
+    flex: 1;
+    font-size: 1.3rem;
+  }
+}
+
+.action {
+  display: flex;
+  align-items: center;
+}
+
+.projIcon {
+  font-size: 1.1rem;
+  color: var(--title-color);
+  visibility: hidden;
+}
+
+.iconEdit {
+  margin-right: 0.6rem;
+}
+
+.iconStar.stared {
+  color: #fadb14;
+}

@@ -1,0 +1,56 @@
+.stage {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: top;
+  width: 24rem;
+  height: 100%;
+  background-color: #eee;
+  border-radius: 3px;
+  margin-right: 1rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.create {
+  height: auto;
+  max-height: 100%;
+  padding: 1.2rem 1.4rem;
+}
+
+.createStage {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.createIcon {
+  margin: 0 0.8rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.tasks {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.list {
+  width: inherit;
+}
+
+.addTask {
+  width: inherit;
+}
